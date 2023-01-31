@@ -1,0 +1,179 @@
+<html>
+
+<!-- Mirrored from www.traff-industries.de/pages/pad.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 15:27:23 GMT -->
+<head><title>The PAD page</title></head>
+<body bgcolor="lightblue">
+
+<a href="http://www.ida.liu.se/~chrke/ppp.html">Consult the book page</a>
+
+<h2>PAD: A Library of basic PRAM Algorithms and Data Structures</h2>
+
+Last update of this page: 12.01.01. SOFTWARE NOT AVAILABLE FOR DOWNLOAD - 
+contact instead the author, 
+<a href="../index.html">Jesper Larsson Tr&auml;ff</a>.
+
+<p>
+
+PAD is a small library of <em>PRAM Algorithms and Data structures</em>.
+The motivation of PAD is to study the PRAM as a
+practical programming model, and to provide a collection of
+efficiently implemented basic PRAM algorithms. In PAD you will find
+<ul>
+<li>Data types for arrays, range query trees, lists, trees, graphs, and
+dictionaries
+<li>Various prefix-sums operations for both generic and integer arrays
+<li>Search, merge, sort operations for generic and integer arrays
+<li>List ranking and other operations on lists 
+<li>Lowest common ancestors, generic tree contraction 
+<li>Connected components
+<li>Dictionary operations
+</ul>
+
+This page gives access to the complete PAD software, including several 
+smaller example programs. PAD is described in 
+<a href="#PPPbook">the book <cite>Practical PRAM Programming</cite></a>
+- which we suggest you buy! - but can also be used without the book. 
+A short manual can also be found on this page.
+
+<h3>How to get the library</h3>
+
+Download a complete gzipped <code>tar</code>-file with all of the below 
+mentioned material (library, makefile, example programs).
+
+Or download the components separately:
+<ul>
+<li>
+The PAD header file, <code>pad.h</code> 
+<li>
+The complete code of the PAD library, <code>pad.c</code>
+<li>
+A <code>Makefile</code>
+</ul>
+
+<h3>How to install the library</h3>
+
+<h3>Example Programs</h3>
+
+<ul>
+<li>
+<code>prefix_example.c</code>
+<li>
+<code>sort_example.c</code>
+<li>
+<code>list_example.c</code>
+<li>
+<code>tree_example.c</code>
+<li>
+<code>graph_example.c</code>
+<li>
+<code>dict_example.c</code>
+</ul>
+
+<h3>The PAD manual</h3>
+
+<a href="../docs/manual.ps">Current version, 18.8.00</a>. See also Appendix F of the book. 
+
+<h3>Revision history</h3>
+
+Version 1 of PAD was done between 1995 and 1998 at the 
+Max-Planck-Institut f&uuml;r Informatik in Saarbr&uuml;cken, Germany, 
+as part of the SFB-124 project. 
+Version 2 of PAD was completed in July-August 2000, 
+with some revisions January 2001. 
+
+<h3>Wish list</h3>
+
+A parallel generator for random permutations.
+
+<h3>Matererial relevant to the projects in Chapter 8 of 
+<cite>Practical PRAM Programming</cite></h3>
+
+<h3>Publications</h3>
+
+<UL>
+<LI>
+<a name="PPPbook">J&ouml;rg Keller, 
+Christoph&nbsp;W. Ke&#223;ler, 
+Jesper&nbsp;Larsson Tr&#228;ff.
+<a href="http://www.ida.liu.se/~chrke/ppp.html">Practical 
+PRAM Programming</a>. 
+Wiley, 2001.
+</a>
+<P>
+<LI>
+Christoph&nbsp;W. Ke&#223;ler and Jesper&nbsp;Larsson Tr&#228;ff.
+Language and library support for practical PRAM programming.
+<EM>Parallel Computing</EM>, 25: 105-135, 1999.
+<P>
+</UL>
+
+<h3>Master's theses</h3>
+
+Two Master's Theses (German: Diplomarbeiten) describe and evaluate 
+implementations of PRAM algorithms from the literature in FORK and use
+routines from PAD:
+
+<ul>
+<li>
+Peter Dickert: 
+Berechnung von Einfach- und Zweifachzusammenhangskomponenten auf 
+einer PRAM. 
+Max-Planck-Institut f&uuml;r Informatik, 1999.
+<p>
+<li>
+Anastasios Semeloglou:
+K&uuml;rzeste Wege in planare Graphen. 
+Max-Planck-Institut f&uuml;r Informatik, 2000.
+</ul>
+
+<h3>Older TR's</h3>
+
+The technical reports listed below describe version 1 of the 
+PAD library. They are now obsolete, as is this version.
+
+<UL>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Explicit implementation of a parallel dictionary.
+Technical Report SFB 124-D6 10/95, Universit&#228;t des Saarlandes,
+  Sonderforschungsbereich 124, VLSI Entwurfsmethoden und Parallelit&#228;t,
+  1995.
+53 Pages.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Parallel searching, merging and sorting.
+Technical Report SFB 124-D6 1/96, Universit&#228;t des Saarlandes,
+  Sonderforschungsbereich 124, VLSI Entwurfsmethoden und Parallelit&#228;t,
+  1996.
+45 Pages.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Prefix sums and other operations on parallel arrays.
+Technical Report SFB 124-D6 6/96, Universit&#228;t des Saarlandes,
+  Sonderforschungsbereich 124, VLSI Entwurfsmethoden und Parallelit&#228;t,
+  1996.
+49 Pages.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Parallel List Ranking and other Operations on Lists.
+Technical Report SFB 124-D6 3/97, Universit&#228;t des Saarlandes,
+  Sonderforschungsbereich 124, VLSI Entwurfsmethoden und Parallelit&#228;t,
+  1997.
+69 Pages.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Parallel Tree Operations.
+Technical Report SFB 124-D6 4/97, Universit&#228;t des Saarlandes,
+  Sonderforschungsbereich 124, VLSI Entwurfsmethoden und Parallelit&#228;t,
+  1997.
+40 Pages.
+<P>
+
+</body>
+
+<!-- Mirrored from www.traff-industries.de/pages/pad.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 15:27:28 GMT -->
+</html>

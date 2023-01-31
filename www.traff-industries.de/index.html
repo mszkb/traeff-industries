@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from www.traff-industries.de/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 15:26:52 GMT -->
+<head>
+
+<meta name    = "description"
+      content = "Personal home page of Jesper Larsson Tr&auml;ff, MPI and Frank Zappa specialist">
+<meta name    = "keywords"
+      content = "Jesper Larsson Tr&auml;ff, Traff,
+                 MPI, Message-Passing Interface, PRAM, PAD, Fork, DIKU, ECRC, NEC, marathon">
+
+<title>TRAFF's Homepage</title></head>
+<body bgcolor="yellow">
+
+<hr>
+
+<table>
+<tr>
+<td>
+Welcome to the <b>rudimentary old-style</b> homepage of
+<h2><a href="pages/spot.html">Dr. Scient. Jesper Larsson
+Tr&auml;ff</a></h2>
+who used to be <em><font color="red">Chief Researcher</font></em> at
+<br><a href="http://www.it.neclab.eu/" target="_blank">NEC
+Laboratories Europe, NEC Europe Ltd</a> located in St. Augustin,
+Germany, until NEC made the regrettable decision to close down
+this research unit with effect from 31.12.2009. After one year and a half at
+<a href="http://www.par.univie.ac.at/">Research group for Scientific Computing,
+Faculty of Computer Science</a> at the University of Vienna, I am now at
+the Technical University of Vienna (TU Wien) as the head of the group on
+<a href="http://www.par.tuwien.ac.at/">Parallel Computing</a>.
+
+</td>
+<td>
+<a href="pages/material.html"><img
+src="pictures/traff.gif" alt="TR&Auml;FF" align="right"></a>
+</td>
+<td>
+<ul>
+<li><a href="#development">Development</a>
+<li><a href="#research">Research</a>
+<li><a href="#education">Education</a>
+<li><a href="#publications">Selected publications</a>
+</ul>
+</td>
+</tr>
+</table>
+
+<hr>
+<h2>PEPPHER</h2>
+
+<a href="http://www.peppher.eu/">PErformance Portability and Programmability of
+HEterogeneous many-core aRchitectures</a>.
+
+<h2><a name="development">MPI development and research</a></h2>
+
+Practically (as well as theoretically) efficient implementations of MPI, the 
+<em><a href="http://www.mpi-forum.org/">Message-Passing Interface</a></em>,
+for the NEC-<a href="http://www.cray.com/products/systems/sx6/">Cray</a> 
+<a href="http://www.sw.nec.co.jp/hpc/sx-e/">SX-series</a>, the 
+<a href="http://www.jamstec.go.jp/esc/">Earth Simulator</a>, and other NEC
+systems. This is done together with other members of the
+<a href="http://www.it.neclab.eu/~mpi/" target="_blank">NEC Laboratories Europe MPI Team</a>.
+
+<p>
+Specifically, I work on regular and irregular collective communication
+operations (broadcast, reductions, gather, scatter, alltoall, etc.),
+MPI datatypes, MPI-2 one-sided communications, and MPI topology
+functions for various interconnects, toplogies, and architectures, eg.
+SMP-clusters with hierarhical communication systems. I am interested
+in algorithms and implementations that are portable across a range of
+architectures and interconnects. Since collective operations will also
+be found (perhaps implicitly) in other, higher-level parallel
+programming frameworks, this work has relevance beyond MPI.
+
+<p>
+I participate(d) in the <em><a href="http://www.mpi-forum.org/">MPI
+Forum</a></em> which has in 2008 and 2009 brought out consolidated
+versions of the MPI standard (MPI 2.1 and MPI 2.2) and is now
+discussing more wide ranging extensions to MPI (MPI 3.0).
+
+<hr>
+<h2><a name="research">Research - <em>what I would like to do more</em></a></h2>
+
+Advanced computer architectures:
+<ul>
+<li> vector-processing and beyond
+<li> <a href="http://www.hppc-workshop.org/">Highly Parallel Processing on a Chip</a>
+<li> explicitly parallel instruction computing
+<li> architectural support for parallel algorithmics
+</ul>
+<br>
+
+Multi-core parallelization:
+<ul>
+<li> lock- and wait-free data structures
+<li> work-stealing and other multi-core scheduling techniques
+<li> self-adaptive parallel algorithms
+<li> algorithmic library and interface support
+</ul>
+
+<br>
+Models of parallel computation.  Design and implementation of parallel
+algorithms.  Algorithms support for parallel (communication)
+libraries.  Library and interface support for parallel programming.
+Parallel programming languages.  Experimental algorithmics. Graph
+algorithms. Combinatorial optimization.  Theory of
+computation. Recursion theory.  Computational complexity.
+
+<h3><font size="+3" color="green">A</font> <font color="green">Not So RECENT
+Book:</font> Practical PRAM Programming<img
+src="pictures/bookcover.jpg" alt="theBookCover" width=90 align="right"></h3>
+
+A <a href="#prambook">textbook</a> (with
+<a href="http://pv.fernuni-hagen.de/jk/">J&ouml;rg Keller</a> and
+<a href="http://www.ida.liu.se/~chrke/">Christoph&nbsp;W. Ke&#223;ler</a>)
+on the PRAM, emulation of the PRAM in the hardware of the
+<a href="http://www-wjp.cs.uni-sb.de/forschung/projekte/SB-PRAM/">SB-PRAM</a>,
+the PRAM programming language
+<a href="http://www.ida.liu.se/~chrke/fork95.html">FORK</a>,
+and the PRAM algorithms library
+<a href="pages/pad.html">PAD</a>,
+published by Wiley, 2000.
+
+<h3>(Co)edited stuff</h3>
+
+<a href="http://www.pvmmpi06.org/"><img src="pictures/lncs4192.jpg" alt="LNCS4192" width=100></a>
+<a href="http://dx.doi.org/10.1016/j.parco.2007.07.001"><img src="pictures/parco-33-9.gif" alt="PARCO 33(9)" width=100></a>
+<a href="http://www.hppc-workshop.org/"><img src="pictures/lncs4854.jpg" alt="LNCS4854" width=100></a>
+<a href="http://www.hppc-workshop.org/"><img src="pictures/lncs5415.jpg" alt="LNCS5415" width=100></a>
+<a href="https://fs.hlrs.de/projects/par/mpi/mpi21/"><img src="pictures/mpi21-fronts.jpg" alt="MPI-2.1" width=100></a>
+<a href="https://fs.hlrs.de/projects/par/mpi/mpi22/"><img src="pictures/mpi22-fronts.jpg" alt="MPI-2.2" width=100></a>
+<a href="http://iospress.metapress.com/content/w83868000161/"><img src="pictures/scientificprog.jpg" alt="Scientific Programming 17(4)" width=100>
+<a href="http://www.hppc-workshop.org/"><img src="pictures/lncs6586.jpg" alt="LNCS6586" width=100></a>
+
+<hr>
+<h2><a name="education">Education and degrees - <em>how I did not become what I am</em></a></h2>
+
+University of Copenhagen, 1980-1989, mathematics, computer science
+and assorted.
+Degree in computer science (major, <a href="http://www.diku.dk/">DIKU</a>:
+Datalogisk Institut, K&#248;benhavns Universitet) and
+mathematics (minor, indeed).
+<p>
+Master's Thesis (August 1989):
+<em>Memoization and its use in lazy and incremental program generation</em>
+(with <a href="http://www.cis.ksu.edu/~tamtoft/">Torben Amtoft</a>);
+supervisor:
+<a href="http://www.diku.dk/people/NDJ.html">Neil D. Jones.</a>
+<p>
+PhD thesis (June 1995):
+<em>Distributed and parallel graph algorithms: models and experiments</em>;
+supervisor:
+<a href="http://www.imm.dtu.dk/~jc/">Jens Clausen</a>.
+<p>
+Doctoral Dissertation (Danish: <em>doktordisputats</em>):
+<a href="pages/disputats.html"><em>Aspects of the efficient implementation of the Message Passing Interface (MPI)</em></a>
+<p>
+1990 to March 1992 at the now-defunct
+<em>European Computer-Industry Research Center (<a
+href="http://www.ecrc.de/">ECRC</a>)</em> in Munich.
+<p>
+1992 to January 1995 PhD student at
+<a href="http://www.diku.dk/">DIKU</a>.
+<p>
+February 1995 to October 1997 Research Associate at the
+<a href="http://www.mpi-sb.mpg.de/">Max-Planck-Institut f&uuml;r
+Informatik</a> in
+<a
+href="http://www.caos.kun.nl/zappa/Docs/btb06.html">Saarbr&uuml;cken</a>
+in the
+<a href="http://www.mpi-sb.mpg.de/units/ag1/">Algorithms and
+Complexity Group (AG1)</a> of
+<a href="http://www.mpi-sb.mpg.de/~mehlhorn/">Kurt Mehlhorn</a>.
+<p>
+November 1997 to July 1998 Research Associate at
+<a href="http://www.tu-muenchen.de/">Technische Universit&auml;t M&uuml;nchen</a>
+at the <a href="http://wwwmayr.informatik.tu-muenchen.de/">Lehrstuhl f&uuml;r Effiziente Algorithmen</a> of <a
+href="http://wwwmayr.informatik.tu-muenchen.de/personen/mayr/">Ernst
+Mayr</a>.
+<p>
+Since August 1998 Research Staff at 
+<a href="http://www.it.neclab.eu/" target ="_blank">NEC Laboratories Europe</a> (formerly C&C Research Laboratories)
+<p><p>
+<strong><a href="pages/marathon.html">Best Marathon</a></strong>: 2.59:31 (Copenhagen, May 1994).
+Best Halfmarathon: 1.25:23 (Saarbr&uuml;cken, March 2000). Half-marathon in
+Vienna 2010, 2011.
+<p>
+Very much non-speaking part in
+<a href="http://german.imdb.com/title/tt0328039/">Kolle - Ein Leben f&uuml;r Liebe und Sex</a>
+
+<p>
+<hr>
+<h2><a name="publications">Some publications</a></h2>
+
+An up-to-date list of mainstream computer science publications 
+can be found in the  
+<a
+href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/t/Tr=auml=ff:Jesper_Larsson.html"><b>dblp computer science bibliography</b></a>.
+
+<p>
+For citations (there are not many) use the
+<a 
+href="http://citeseer.ist.psu.edu/cis?q=Jesper+Larsson+Tr%E4ff">
+NEC Research Institute Citeseer</a>.
+
+<h4>Miscellaneous</h4>
+<UL>
+<LI>
+Torben Amtoft and Jesper&nbsp;Larsson Tr&#228;ff.
+Partial memoization for obtaining linear time behaviour of a 2DPDA.
+<EM>Theoretical Computer Science</EM>, 98(2):347-356, May 1992.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff and Steven Prestwich.
+Meta-programming for reordering literals in deductive databases.
+In <EM>Proceedings of the 3rd international workshop on
+  Meta-programming in logic programming (META'92)</EM>, volume 649 of <EM>Lecture
+  Notes in Computer Science</EM>, pages 280-293. Springer-Verlag, June 1992.
+<P>
+<LI>
+Jens Clausen and Jesper&nbsp;Larsson Tr&#228;ff.
+Implementation of parallel branch-and-bound algorithms - experiences
+  with the graph partitioning problem.
+<EM>Annals of Operations Research</EM>, 33:331-349, 1991.
+<P>
+<LI>
+Jens Clausen and Jesper&nbsp;Larsson Tr&#228;ff.
+Do inherently sequential branch-and-bound algorithms exist?
+<EM>Parallel Processing Letters</EM>, 4(1 &amp; 2):3-13, 1994.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Distributed, synchronized implementation of an algorithm for the
+  maximum flow problem.
+In <EM>Proceedings of the 23rd International Conference on Parallel
+  Processing (ICPP'94)</EM>, pages III-110-114, 1994.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+An experimental comparison of two distributed single-source shortest
+  path algorithms.
+<EM>Parallel Computing</EM>, 21:1505-1532, 1995.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+A heuristic for blocking flow algorithms.
+<EM>European Journal of Operational Research</EM>, 89(3):564-569, 1996.
+<P>
+<LI>
+Jyrki Katajainen and Jesper&nbsp;Larsson Tr&#228;ff.
+A meticulous analysis of mergesort programs.
+In <em>Algorithms and Complexity (CIAC'97)</em>, volume 1203 of
+<EM>Lecture Notes in Computer Science</EM>,
+  pages 217-229, 1997.
+<P>
+<LI>
+Jesper&nbsp;L. Tr&#228;ff and Christos&nbsp;D. Zaroliagis.
+A simple parallel algorithm for the single-source
+shortest path problem on planar digraphs.
+<EM>Journal of Parallel and Distributed Computing</EM>, 60(9):1103-1124, 2000.
+<P>
+<LI>
+Gerth St&#248;lting Brodal, Jesper&nbsp;Larsson Tr&#228;ff and
+Christos&nbsp;D. Zaroliagis.
+A Parallel Priority Queue with Constant Time Operations.
+<EM>Journal of Parallel and Distributed Computing</EM>, 49:4-21, 1998.
+<P>
+<LI>
+Torben Hagerup, Peter Sanders and Jesper Larsson Tr&auml;ff.
+An Implementation of the Binary Blocking Flow Algorithm.
+In
+<a href="http://www.mpi-sb.mpg.de/~wae98/PROCEEDINGS/">
+<EM>2nd Workshop on Algorithm Engineering (WAE'98)</EM>,
+pages 143-154, 1998.
+</a>
+<P>
+<li>
+Peter Sanders and Jesper Larsson Jesper Larsson Tr&auml;ff.
+The Hierarchical Factor Algorithm for All-to-all Communication.
+In <em>Euro-Par 2002 Parallel Processing</em>, volume 2400 of
+<EM>Lecture Notes in Computer Science</EM>, pages 
+799-803, 2002.
+<P>
+<LI>
+Irit Katriel, Peter Sanders and Jesper Larsson Tr&auml;ff.
+A Practical Minimum Spanning Tree Algorithm using the Cycle Property.
+In <em>11th European Symposium on Algorithms (ESA)</em>,
+volume 2332 of <EM>Lecture Notes in Computer Science</EM>, pages 
+679-690, 2003.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Direct Graph <em>k</em>-partitioning with a Kernighan-Lin like Heuristic.
+<EM>Operations Research Letters</EM>, 34(6): 621-629, 2006.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff, Andreas Ripke.
+Optimal Broadcast for fully connected Processor-node Networks.
+<EM>Journal of Parallel and Distributed Computing</EM>, 68(7): 887-901, 2008.
+<P>
+<LI>
+Peter Sanders, Jochen Speck, Jesper&nbsp;Larsson Tr&#228;ff.
+Two-Tree Algorithms for Full Bandwidth Broadcast, Reduction and Scan.
+2008.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Relationships between regular and irregular
+collective communication operations on clustered multiprocessors.
+<EM>Parallel Processing Letters</EM>, 2008.
+<P>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+How to avoid making the same Mistakes all over again:
+What the parallel-processing Community has (failed) to offer 
+the multi/many-core Generation.
+In <EM>International Parallel and Distributed Processing Symposium (IPDPS)</EM>,2008.
+<P>
+</UL>
+
+<h4>Message-Passing Interface (MPI) related</h4>
+<UL>
+<LI>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Portable Randomized List Ranking on Multiprocessors using MPI.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 5th European PVM/MPI Users' Group Meeting</em>,
+volume 1497 of
+<EM>Lecture Notes in Computer Science</EM>, pages 395-402, Springer 1998.
+<P>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff, Rolf Hempel, Hubert Ritzdorf, Falk Zimmermann.
+Flattening on the Fly: efficient handling of MPI derived datatypes.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 6th European PVM/MPI Users' Group Meeting</em>,
+volume 1697 of
+<EM>Lecture Notes in Computer Science</EM>, pages 109-116, Springer 1999.
+<p>
+<li>
+Ralf Reussner, Jesper&nbsp;Larsson Tr&#228;ff, Gunnar Hunzelmann.
+A Benchmark for MPI Derived Datatypes.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 7th European PVM/MPI Users' Group Meeting</em>,
+volume 1908 of
+<EM>Lecture Notes in Computer Science</EM>, pages 10-17, Springer 2000.
+<p>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff, Hubert Ritzdorf, Rolf Hempel.
+The Implementation of MPI-2 One-Sided Communication for the NEC SX-5.
+<a href="http://www.sc2000.org/proceedings/techpapr/index.htm#01"><EM>Supercomputing 2000</EM></a>.
+<p>
+<li>
+Maciej Golebiewski, Jesper&nbsp;Larsson Tr&#228;ff.
+MPI-2 One-sided Communications on a Giganet SMP Cluster.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 8th European PVM/MPI Users' Group Meeting</em>,
+volume 2131 of <EM>Lecture Notes in Computer Science</EM>, pages
+16-23, Springer 2001.
+<p>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff.
+Implementing the MPI Process Topology Mechanism.
+<a href="http://www.sc-2002.org/paperpdfs/pap.pap122.pdf"><EM>Supercomputing 2002</EM></a>.
+<p>
+Joachim Worringen, Jesper&nbsp;Larsson Tr&#228;ff, Hubert Ritzdorf.
+Improving Generic Non-Contiguous File Access for MPI-IO.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 10th European PVM/MPI Users' Group Meeting</em>,
+volume 2840 of <EM>Lecture Notes in Computer Science</EM>, pages
+309-318, Springer 2003.
+<p>
+<li>
+Joachim Worringen, Jesper&nbsp;Larsson Tr&#228;ff, Hubert Ritzdorf.
+Fast Parallel Non-contiguous File Access.
+<a href="http://www.sc-conference.org/sc2003/tech_papers.php"><EM>Supercomputing 2003</EM></a>.
+<p>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff, Joachim Worringen.
+Verifying Collective MPI Calls.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 11th European PVM/MPI Users' Group Meeting</em>,
+volume 3241 of <EM>Lecture Notes in Computer Science</EM>, pages
+18-27, Springer 2004.
+<p>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff.
+An improved Algorithm for (non-commutative) Reduce-scatter 
+with an Application.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 12th European PVM/MPI Users' Group Meeting</em>,
+volume 3666 of <EM>Lecture Notes in Computer Science</EM>, pages
+129-137, Springer 2005.
+<p>
+<li>
+Hubert Ritzdorf, Jesper&nbsp;Larsson Tr&#228;ff.
+Collective Operations in NEC's High-performance MPI Libraries.
+In <EM>International Parallel and Distributed Processing Symposium (IPDPS)</EM>,page 100, 2006.
+<p>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff, William Gropp, Rajeev Thakur.
+Self-consistent MPI Performance Requirements.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 14th European PVM/MPI Users' Group Meeting</em>,
+volume 4757 of <EM>Lecture Notes in Computer Science</EM>, pages
+36-45, Springer 2007.
+<p>
+<li>
+Jesper&nbsp;Larsson Tr&#228;ff, Andreas Ripke, Christian Siebert,
+Pavan Balaji, Rajeev Thakur, William Gropp.
+A Simple, Pipelined Algorithm for Large, Irregular All-gather Problems.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 15th European PVM/MPI Users' Group Meeting</em>,
+volume 5205, of
+<em>Lecture Notes in Computer Science</em>, pages 84-93. Springer, 2008.
+<p>
+<li>
+Faisal Ghias Mir, Jesper&nbsp;Larsson Tr&#228;ff.
+Constructing MPI input-output Datatypes for efficient Transpacking.
+In <em>Recent Advances in Parallel Virtual Machine and
+Message Passing Interface. 15th European PVM/MPI Users' Group Meeting</em>,
+volume 5205, of
+<em>Lecture Notes in Computer Science</em>, pages 141-150. Springer, 2008.
+<p>
+</UL>
+
+<h4>Library of PRAM Algorithms and Data structures</h4>
+<UL>
+<LI>
+Christoph&nbsp;W. Ke&#223;ler and Jesper&nbsp;Larsson Tr&#228;ff.
+Language and library support for practical PRAM programming.
+<EM>Parallel Computing</EM>, 25: 105-135, 1999.
+<P>
+<LI>
+<a name="prambook">J&ouml;rg Keller, Christoph&nbsp;W. Ke&#223;ler, Jesper&nbsp;Larsson Tr&#228;ff.</a>
+<a href="http://www.ida.liu.se/~chrke/ppp.html">Practical
+PRAM Programming</a>, Wiley, 2000.
+<P>
+</UL>
+
+<hr>
+
+<address>Page created sometime in 1996 by Jesper Larsson Tr&auml;ff,
+his own (web)master. Last serious update: July 4th, 2008.
+</address>
+
+<P><A HREF="http://validator.w3.org/"><IMG BORDER=0
+     SRC="http://validator.w3.org/images/vh32.gif"
+          ALT="Valid HTML 3.2!" HEIGHT=31 WIDTH=88></A>
+
+</body>
+
+<!-- Mirrored from www.traff-industries.de/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 15:27:08 GMT -->
+</html>

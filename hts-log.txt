@@ -1,0 +1,13 @@
+HTTrack3.49-2 launched on Tue, 31 Jan 2023 16:26:50 at http://www.traff-industries.de/
+(httrack http://www.traff-industries.de/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:30:05	Warning: 	Retry after error -4 (Incorrect length (641330 Bytes, 792464 expected)) at link www.traff-industries.de/docs/disputats.pdf (from www.traff-industries.de/pages/disputats.html)
+16:30:05	Warning: 	Retry after error -4 (Incorrect length (348623 Bytes, 373210 expected)) at link www.traff-industries.de/pictures/essen1.jpg (from www.traff-industries.de/pages/marathon.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 27 seconds : 35 links scanned, 32 files written (2998577 bytes overall) [3008872 bytes received at 14535 bytes/sec], 1.4 requests per connection
+(No errors, 2 warnings, 0 messages)
